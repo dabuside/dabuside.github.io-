@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@dev
+      - uses: actions/checkout@master
 
       - name: build
         uses: actions/setup-node@v1
